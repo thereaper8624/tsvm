@@ -1,0 +1,31 @@
+{
+  "name": "tsvm",
+  "version": "1.0.0",
+  "description": "A virtual machine written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thereaper8624/tsvm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/thereaper8624/tsvm/issues"
+  },
+  "homepage": "https://github.com/thereaper8624/tsvm#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsc": "^2.0.4",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
